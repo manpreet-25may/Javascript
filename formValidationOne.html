@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="formValidationOne.js"></script>
+    <title>Form Validation</title>
+</head>
+
+<body>
+    <form>
+        <label>First Name</label>
+        <input type="text" id="fname"><br><br>
+        <label>Last Name</label>
+        <input type="text" id="lname"><br><br>
+        <label>Gender</label>
+        <input type="radio" id="male">
+        <label>Male</label>
+        <input type="radio" id="female">
+        <label>Female</label><br><br>
+        <label>State</label>
+        <select name="state" id="state">
+            <option value=""></option>
+            <option value="Alberta">Alberta</option>
+            <option value="Ontario">Ontario</option>
+            <option value="BC">BC</option>
+        </select><br><br>
+        <input type="checkbox" id="check">
+        <label>I ACCEPT</label><br><br>
+    </form>
+   <button onclick="validation()">Submit</button>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="extraOne.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <label>Select Option from Drop down</label>
+            <select id="op" onchange="makeselection()">
+                <option value=""></option>
+                <option value="Make Invisible" onkeyup="makeselection()">Make Invisible</option>
+                <option value="Change Color" onchange="changeColor()">Change Color</option>
+                <option value="Make Visible and Change Color">Make Visible and Change Color</option>
+                <option value="Default">Default</option>
+            </select><br><br>
+            <p id="para"></p>
+    
+</body>
+</html>

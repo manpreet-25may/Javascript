@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="extraDomEleven.js"></script>
+    <title>Form Submit</title>
+</head>
+<body>
+    <form>
+        <label>ID</label>
+        <input type="text" id="intxt1" onkeyup="frm()">
+        <p id="p1"></p>
+        <label>Name</label>
+        <input type="text" id="intxt2" onkeyup="frm()">
+        <p id="p2"></p>
+        <label>City</label>
+        <input type="text" id="intxt3" onkeyup="frm()">
+        <p id="p3"></p>
+        <label>Gender</label>
+            <input type="radio" id="gender"   value="Male">
+            <label>Male</label>
+            <input type="radio" id="gende" onkeyup="frm()" value="Female">
+            <label>Female</label><br><br>
+        <p id="p4"></p>
+        <label>State</label>
+        <select name="state" id="state" onkeyup="frm()">
+            <option value=""></option>
+            <option value="Alberta">Alberta</option>
+            <option value="Ontario">Ontario</option>
+            <option value="BC">BC</option>
+        </select><br><br>
+        <input type="checkbox" id="check" onkeyup="frm()">
+        <label>I ACCEPT</label><br><br>
+        <p id="p5"></p>
+        <button id="sub"  onclick="frm()">Submit</button>
+    </form>
+    
+</html>
